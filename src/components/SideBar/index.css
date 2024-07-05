@@ -1,0 +1,65 @@
+.sidebarContainer {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 2px;
+  padding-top: 30px;
+  flex-direction: column;
+  min-height: 100vh;
+  box-shadow: 0px 2px 4px 0px #0000000d;
+  width: 250px;
+  transition: width 2s;
+  overflow: auto;
+  margin-right: 10px;
+}
+
+.logoBurger {
+  display: none;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 10px;
+  border-style: none;
+  font-size: 25px;
+  gap: 10px;
+  height: 50px;
+  width: 100%;
+}
+
+.sidebarContainerNone {
+  display: none;
+  transition: display 2s;
+}
+
+.hover-element:hover {
+  min-width: 200px;
+  text-align: left;
+  background-color: #0000000f;
+}
+
+.activeBtn {
+  background-color: #0000000f;
+  min-width: 200px;
+  padding: 10px;
+  color: #000;
+  text-align: left;
+  font-weight: 600;
+  border-radius: 10px;
+  border-style: none;
+}
+
+.notActiveBtn {
+  text-align: left;
+  font-weight: 600;
+  min-width: 200px;
+  border-radius: 10px;
+  gap: 10px;
+  border-style: none;
+  background-color: transparent;
+  padding: 10px;
+}
+
+@media (max-width: 786px) {
+  .logoBurger {
+    display: flex;
+  }
+}

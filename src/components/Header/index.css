@@ -1,0 +1,9 @@
+.HeaderContainer {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+
+  min-height: 60px;
+  padding: 20px;
+  box-shadow: 0px 2px 4px 0px #0000000d;
+}
