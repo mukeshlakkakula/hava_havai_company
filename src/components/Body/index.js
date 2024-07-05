@@ -4,7 +4,7 @@ import Airports from "../Airports";
 
 const Body = () => {
   return (
-    <div>
+    <div className="w-100">
       <Airports />
     </div>
   );

@@ -12,7 +12,7 @@ function App() {
     <BrowserRouter>
       {" "}
       <Header />
-      <div className="d-flex w-100">
+      <div className="d-flex w-100 ">
         <Sidebar />
 
         <Routes>

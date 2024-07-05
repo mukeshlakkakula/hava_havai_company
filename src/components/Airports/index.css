@@ -1,0 +1,38 @@
+.addNewBtn {
+  background-color: #000000;
+  color: #fff;
+  border-radius: 25px;
+  padding: 10px;
+}
+
+.airportOuterContainer {
+  padding: 25px;
+  width: 100%;
+}
+
+.airportTopContainer {
+  display: flex;
+
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.checkBoxBtn {
+  width: 10px;
+  height: 10px;
+  padding: 10px;
+}
+
+.activeForm {
+  display: block;
+}
+.notActiveForm {
+  display: none;
+}
+
+.icon {
+  cursor: pointer;
+  display: inline;
+  z-index: 0;
+}
