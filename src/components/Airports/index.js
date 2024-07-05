@@ -83,6 +83,7 @@ const Airports = () => {
     event.preventDefault();
     setTdata([...tdata, newObj]);
     setObj({ airport: "", country: "", code: "", terminals: "" });
+    setForm(false);
   };
 
   const delData = (e) => {
