@@ -45,7 +45,7 @@
 @media (max-width: 786px) {
   .airportOuterContainer {
     position: static;
-    padding: 0px;
+    padding: 4px;
     margin: 0px;
     padding-top: 10px;
     font-size: 10px;
