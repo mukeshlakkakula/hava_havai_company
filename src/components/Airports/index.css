@@ -7,7 +7,12 @@
 
 .airportOuterContainer {
   padding: 25px;
-  width: 100%;
+
+  margin-left: 250px; /* Same width as the sidebar */
+  flex: 1;
+  margin-top: 72px;
+
+  max-height: 100vh;
 }
 
 .airportTopContainer {
@@ -35,4 +40,16 @@
   cursor: pointer;
   display: inline;
   z-index: 0;
+}
+
+@media (max-width: 786px) {
+  .airportOuterContainer {
+    position: static;
+    padding: 0px;
+    margin: 0px;
+    padding-top: 10px;
+    font-size: 10px;
+    overflow: auto;
+    width: 100%;
+  }
 }

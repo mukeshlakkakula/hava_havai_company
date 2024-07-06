@@ -11,6 +11,9 @@
   transition: width 2s;
   overflow: auto;
   margin-right: 10px;
+  overflow: auto;
+  top: 72px;
+  position: fixed;
 }
 
 .logoBurger {
@@ -61,5 +64,8 @@
 @media (max-width: 786px) {
   .logoBurger {
     display: flex;
+  }
+  .sidebarContainer {
+    position: static;
   }
 }
